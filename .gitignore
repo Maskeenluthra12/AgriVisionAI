@@ -1,0 +1,25 @@
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and environment variables
+.streamlit/secrets.toml
+.env
+.env.*
+
+# MLflow generated files
+mlruns/
+mlflow.db
+
+# Archive files
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db

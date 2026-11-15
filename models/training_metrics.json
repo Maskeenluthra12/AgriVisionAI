@@ -1,0 +1,33 @@
+{
+    "best_model": "DecisionTree",
+    "rows_used": 242361,
+    "features": [
+        "State_Name",
+        "District_Name",
+        "Crop_Year",
+        "Season",
+        "Crop",
+        "Area"
+    ],
+    "target": "Production",
+    "results": [
+        {
+            "model": "DecisionTree",
+            "MAE": 108563.72947417444,
+            "RMSE": 4619473.1345268255,
+            "R2": 0.9469611560431543
+        },
+        {
+            "model": "RandomForest",
+            "MAE": 116964.2823726078,
+            "RMSE": 4799229.713850824,
+            "R2": 0.9427530657618541
+        },
+        {
+            "model": "ExtraTrees",
+            "MAE": 122191.5559857292,
+            "RMSE": 4950647.127155684,
+            "R2": 0.9390837582443494
+        }
+    ]
+}

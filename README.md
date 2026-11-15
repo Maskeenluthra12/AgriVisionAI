@@ -5,6 +5,14 @@
 AgriVisionAI is an intelligent agriculture platform that uses Machine Learning to predict crop production based on agricultural parameters such as state, district, crop, season, year, and cultivated area.
 
 The project combines machine learning, data analytics, a Streamlit frontend, and a FastAPI backend to provide an integrated crop production prediction system.
+Feature	Type	Allowed range / values	Why it matters
+State_Name	String	Valid state names	Geographical location
+District_Name	String	Valid district names	Regional production
+Crop_Year	Integer	1900–2100	Historical year
+Season	String	Valid agricultural seasons	Seasonal variation
+Crop	String	Valid crop names	Crop selection
+Area	Float	Greater than 0	Cultivated area
+Production	Float	Greater than or equal to 0	Target variable
 
 ---
 
